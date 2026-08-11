@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Petal Count</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🪷Petal Count</h1>
+
+            <p>
+                Cada número, uma nova pétala.
+            </p>
+        </header>
+
+
+        <main>
+
+            <section class="exercicio">
+
+                <h2>Contagem regressiva</h2>
+
+                <label for="sub">
+                    Escolha um número
+                </label>
+
+                <input
+                    type="number"
+                    id="sub"
+                    placeholder="Digite um número"
+                >
+
+                <button
+                    type="button"
+                    onclick="subtrair()"
+                >
+                    Contar regressivamente
+                </button>
+
+                <p id="resultadoSub"></p>
+
+            </section>
+
+
+            <section class="exercicio">
+
+                <h2>Contagem crescente</h2>
+
+                <label for="soma">
+                    Escolha um número
+                </label>
+
+                <input
+                    type="number"
+                    id="soma"
+                    placeholder="Digite um número"
+                >
+
+                <button
+                    type="button"
+                    onclick="incremento()"
+                >
+                    Contar até o número
+                </button>
+
+                <p id="resultadoSoma"></p>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
